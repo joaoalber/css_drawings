@@ -22,6 +22,10 @@ body {
   border-radius: 15px;
 }
 
+.card:hover {
+  background-color: #e1e1e1;
+}
+
 .center-heart-component-1 {
   position: absolute;
   background: red;
