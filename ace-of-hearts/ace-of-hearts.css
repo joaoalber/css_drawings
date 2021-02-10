@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #e9e9e9, #ff6a6a);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.card {
+  width: 360px;
+  height: 600px;
+  background: rgb(248, 248, 248);
+  border-radius: 15px;
+}
+
+.center-heart-component-1 {
+  position: absolute;
+  background: red;
+  border-radius: 50px 50px 50px 0;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%,-50%) rotate(-32deg);
+}
+
+.center-heart-component-2 {
+  position: absolute;
+  border-radius: 50px 50px 50px 0px;
+  background: red;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%) rotate(-58deg);
+}
+
+.center-heart-component-3 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 26px solid red;
+  transform: translate(-50%,-50%);
+}
+
+.letter-a-top {
+  position: absolute;
+  border-left: 3px solid red;
+  top: 5%;
+  left: 10%;
+  height: 30px;
+  transform: rotate(15deg)
+}
+
+.letter-a-top {
+  position: absolute;
+  border-left: 3px solid red;
+  top: 5%;
+  left: 10%;
+  height: 35px;
+  transform: rotate(15deg)
+}
+
+.letter-a-top-1 {
+  position: absolute;
+  border-left: 3px solid red;
+  top: 5%;
+  left: 12.5%;
+  height: 35px;
+  transform: rotate(-15deg)
+}
+
+.letter-a-top-2 {
+  position: absolute;
+  border-left: 3px solid red;
+  top: 8%;
+  left: 11.25%;
+  height: 10px;
+  transform: rotate(-90deg)
+}
+
+.letter-a-bottom {
+  position: absolute;
+  border-left: 3px solid red;
+  bottom: 5%;
+  right: 10%;
+  height: 35px;
+  transform: rotate(15deg)
+}
+
+.letter-a-bottom-1 {
+  position: absolute;
+  border-left: 3px solid red;
+  bottom: 5%;
+  right: 12.5%;
+  height: 35px;
+  transform: rotate(-15deg)
+}
+
+.letter-a-bottom-2 {
+  position: absolute;
+  border-left: 3px solid red;
+  bottom: 8%;
+  right: 11.25%;
+  height: 10px;
+  transform: rotate(-90deg)
+}
+
+.top-heart-component-1 {
+  position: absolute;
+  background: red;
+  border-radius: 50px 50px 50px 0;
+  width: 30px;
+  height: 30px;
+  top: 12%;
+  left: 10%;
+  transform: rotate(-32deg);
+}
+
+.top-heart-component-2 {
+  position: absolute;
+  border-radius: 50px 50px 50px 0px;
+  background: red;
+  width: 30px;
+  height: 30px;
+  top: 12%;
+  left: 5%;
+  transform: rotate(-58deg);
+}
+
+.top-heart-component-3 {
+  position: absolute;
+  top: 16.85%;
+  left: 9%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid red;
+}
+
+.bottom-heart-component-1 {
+  position: absolute;
+  background: red;
+  border-radius: 50px 50px 50px 0;
+  width: 30px;
+  height: 30px;
+  bottom: 12%;
+  right: 10%;
+  transform: rotate(-212deg);
+}
+
+.bottom-heart-component-2 {
+  position: absolute;
+  border-radius: 50px 50px 50px 0px;
+  background: red;
+  width: 30px;
+  height: 30px;
+  bottom: 12%;
+  right: 5%;
+  transform: rotate(-238deg);
+}
+
+.bottom-heart-component-3 {
+  position: absolute;
+  bottom: 16.85%;
+  right: 9%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 12px solid red;
+}
