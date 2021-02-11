@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(167, 255, 207);
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.sphere{
+  position: absolute;
+  opacity: 1;
+  background: radial-gradient(at 150px 150px, rgb(255, 255, 255), rgb(0, 0, 0));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.shadow {
+  position: absolute;
+  background: black;
+  opacity: 0.40;
+  top: 180px;
+  left: 80px;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  height: 170px;
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(5px);
+}
