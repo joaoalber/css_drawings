@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pupil {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+}
+
+.cornea {
+  width: 80px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  background: rgb(38, 0, 126);
+  background: linear-gradient(#000000, #340094);
+  overflow: hidden;
+}
+
+.eye-circle-1 {
+  margin-left: -2px;
+  margin-top: -70px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+}
+
+.eye-circle-2 {
+  margin-top: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+.eyebrow {
+  width: 300px;
+  height: 100px;  
+  margin: -105px -110px;
+  border: solid 17px rgb(0, 0, 0);
+  border-color:rgb(0, 0, 0) transparent transparent transparent;
+  border-radius: 100%/10px 200px 0 0;
+  transform: rotate(10deg);
+}
+
+.eyelid {
+  width: 200px;
+  height: 100px;  
+  border: solid 8px #000;
+  margin-left: -60px;
+  margin-top: -100px;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/30px 30px 0 0;
+  transform: rotate(180deg);
+}
+
+.eye-shadow-left {
+  width: 80px;
+  height: 50px;  
+  border: solid 15px #000;
+  margin-top: -120px;
+  margin-left: -86.7px;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/20px 30px 0 0;
+  transform: rotate(-100deg);
+}
+
+.eye-shadow-top {
+  width: 250px;
+  height: 100px;  
+  border: solid 17px #000;
+  margin-left: -109px;
+  margin-top: -95px;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+  transform: rotate(10deg);
+}
+
+.trace {
+  width: 100px;
+  height: 100px;  
+  margin-top: -110px;
+  margin-left: 55px;
+  border: solid 2px rgb(24, 24, 24);
+  border-color:rgb(0, 0, 0) transparent transparent transparent;
+  border-radius: 100%/10px 100% 0 0;
+  transform: rotate(30deg);
+}
